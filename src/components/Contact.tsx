@@ -113,7 +113,7 @@ const Contact: React.FC = () => {
                 Podemos Trabalhar Juntos
               </h1>
               <p className="text-gray-300 text-lg leading-relaxed mt-4">
-                Tens um projecto em mente? Preencha o formulãrio e eu vou responder dentro de 24 horas.
+                Tens um projecto em mente? Preencha o formulário e eu vou responder em menos de 24 horas.
               </p>
             </motion.div>
           </div>
