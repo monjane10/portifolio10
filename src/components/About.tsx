@@ -35,7 +35,7 @@ const About = () => {
     { 
       icon: Globe, 
       label: 'Frontend',
-      description: 'React.js | Taiwind css | React Navive | Material UI | Redux | React Query | Axios | Farmer Motion',
+      description: 'React.js | Tailwind css | React Native | Material UI | Redux | React Query | Axios | Farmer Motion',
       color: 'from-green-500 to-emerald-500'
     },
     { 
