@@ -56,7 +56,7 @@ const Contact: React.FC = () => {
     setError(null);
     
     if (Object.values(formData).some(value => !value.trim())) {
-      setError("All fields are required");
+      setError("Preencha todos os campos");
       return;
     }
 
@@ -70,12 +70,12 @@ const Contact: React.FC = () => {
           'Accept': 'application/json'
         },
         body: JSON.stringify({
-          access_key: 'd1e75f86-349a-42dd-9def-ee07fe3eb0bf',
+          access_key: '3595f31a-c420-4433-9a39-e9f05b655bd1',
           subject: formData.subject,
           name: formData.name,
           email: formData.email,
           message: formData.message,
-          from_name: "Através do teu Whatsapp"
+          from_name: "Formulário Vindo do meu site"
         })
       });
 
@@ -148,7 +148,7 @@ const Contact: React.FC = () => {
             {isSubmitted && (
               <div className="absolute top-4 left-0 right-0 mx-auto w-max bg-green-500/90 text-white px-6 py-3 rounded-full flex items-center gap-2 shadow-lg">
                 <CheckCircle className="w-5 h-5" />
-                Message sent successfully!
+                Mensagem enviada com sucesso!
               </div>
             )}
             

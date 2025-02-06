@@ -37,8 +37,8 @@ const Projects = () => {
   const projects = [
     // 1) Social Media Application (No demo URL, so no button will show)
     {
-      title: "Social Media Application",
-      description: "A dynamic social platform with real-time features",
+      title: "DietAssistent",
+      description: "Uma aplicação móvel capaz de gerar dieta com base nos dados do utilizador",
       images: [
         "/assets/images/projects/socialmedia.JPG",
         "/assets/images/projects/socialmedia1.JPG",
@@ -46,26 +46,25 @@ const Projects = () => {
         "/assets/images/projects/socialmedia2.JPG",
         // You can add more images here if desired
       ],
-      tech: ["Laravel", "PHP", "MySQL", "WebSockets", "Livewire"],
+      tech: ["Node.js", "Gemini-AI", "ReactNative"],
+      githubUrl: "https://github.com/monjane10/DietAssistent",
       details: {
         overview:
-          "Developed a feature-rich social media platform that enables users to connect, share content, and interact in real-time. The application showcases modern web development practices and scalable architecture.",
+          "Uma aplicação móvel capaz de gerar dieta com base nos dados do utilizador com Integração com Inteligência artificial.",
         features: [
-          "User authentication with email verification",
-          "Real-time chat using WebSockets",
-          "News feed with infinite scroll",
-          "Photo and video sharing capabilities",
-          "Friend requests and following system",
-          "Real-time notifications",
-          "Responsive design for all devices",
+          "O utilizador Clica no Botão Gerar Dieta",
+          "Coloca os dados, como (Nome, Altura, peso, Idade, Objectivo e Nivel",
+          "Clica no botão Finalizar Dieta",
+          "O App gera a dieta e devolve ao utilizador",
+          "a aplicação conta com uma interface amigável e um design moderno e intuitivo",
         ],
       },
     },
 
     // 2) E-Commerce Platform (Updated live URL to mmauto.ae)
     {
-      title: "E-Commerce Platform",
-      description: "Full-featured online shopping solution",
+      title: "NearBy",
+      description: "Aplicão que ajuda os utilizadores a encontrar lugares e pessoas próximas a eles",
       images: [
         "/assets/images/projects/ecommerce1.JPG",
 
@@ -74,87 +73,104 @@ const Projects = () => {
 
         // Add more images if you have them
       ],
-      tech: ["Laravel", "Livewire", "MySQL", "Stripe"],
-      demoUrl: "https://mmauto.ae",
+      tech: ["Node.js", "MangoDb", "React Native", "Prisma"],
+      githubUrl: "https://github.com/monjane10/NearBy",
       details: {
         overview:
           "Built a comprehensive e-commerce platform with advanced features for both customers and administrators. The system handles everything from product management to order processing.",
         features: [
-          "Product catalog with categories and filters",
-          "Shopping cart and wishlist functionality",
-          "Secure payment processing with Stripe",
-          "Order tracking and management",
-          "Admin dashboard with analytics",
-          "Inventory management system",
-          "Customer reviews and ratings",
+          "Tela inicial com logo, descrição e botão Começar",
+          "Tela com menu, mapa e filtragem de lugares",
+          "Tela para visualizar lugares",
+          "Leitura de qrCode",
         ],
       },
     },
 
     // 3) Link Shortener (link10.de)
     {
-      title: "Link Shortener",
-      description: "Convert long URLs into short links, manage them, and more",
+      title: "BurguerShop",
+      description: "Uma Hamburgueria Online",
       images: [
         "/assets/images/projects/linkshort1.png",
         "/assets/images/projects/linkshort2.png",
       ],
-      tech: ["Core PHP", "MySQL"],
-      demoUrl: "https://link10.de",
+      tech: ["HTML", "Tailwind css", "Javascript"],
+      demoUrl: "https://burguershop-puce.vercel.app",
       details: {
         overview:
-          "A powerful link shortener built using core PHP and MySQL. It provides an easy way to create and manage shortened URLs, link lists, QR codes, and even clipboard sharing for text snippets.",
+          "Uma Hamburgueria online, onde os utilizadores podem fazer os seus pedidos e adicionando a sua localizaão e os dados são enviados para o WhatsApp da Hamburgueria",
         features: [
-          "Short links: Convert long URLs into individual short links",
-          "Link list: Create personal link collections",
-          "QR code: Generate QR codes and download them for free",
-          "Clipboard: Share text snippets, codes or any content",
+          "As encomendas só podem ser feitas das 8hrs às 20hrs",
+          "Ao tentar encomendar algo enquanto a loja estiver fechada o pedido não é enviado",
+          "O utilizador tem que adicionar obrigatoriamente a sua localização/endereço",
+          "O utilizador pode remover ou editar itens antes de fazer o pedido",
         ],
       },
     },
 
     // 4) Syllable Highlighter (silbenschrift.de)
     {
-      title: "Syllable Highlighter",
-      description: "Convert text into colored syllabary for fun and effective learning",
+      title: "Loja Virtual 2024",
+      description: "Aplicação web para gestão de produtos, stocks, vendas e funcionários",
       images: [
         "/assets/images/projects/syllable1.png",
         "/assets/images/projects/syllable2.png",
       ],
-      tech: ["JavaScript", "Core PHP", "HTML", "CSS", "Bootstrap"],
-      demoUrl: "https://www.silbenschrift.de/",
+      tech: ["Spring Boot", "MySQL", "React.js", "Material UI", "Bootstrap"],
+      githubUrl: "https://github.com/monjane10/Loja-Virtual-2024",
       details: {
         overview:
           "With this free syllabary converter, you can convert any length of text into colored syllabary. Customize colors or choose from presets, then download as a Word document. Make learning to read fun and effective!",
         features: [
-          "Custom or preset color highlight options",
-          "Download converted text as a Word document",
-          "Effective tool to make reading lessons interactive",
-          "Easy to integrate into teaching workflows",
+          "Faz Gestão de funcionários",
+          "Faz Gestão de Lotes e Productos",
+          "Realiza vendas",
+          "Emite recibos",
         ],
       },
     },
 
     // 5) Highlight Keeper (Chrome Extension) + GitHub link
     {
-      title: "Highlight Keeper",
-      description: "A lightweight and intuitive Chrome extension for highlighting and organizing text",
+      title: "BePrepared",
+      description: "Uma Solução inovadora que visa reduzir o impacto dos desastres naturais em Moçambique",
       images: [
         "/assets/images/projects/highlight.JPG",
         "/assets/images/projects/highlight2.JPG",
       ],
-      tech: ["JavaScript", "Chrome Extension", "LocalStorage"],
-      githubUrl: "https://github.com/Osamaislam1/highlight-keeper",
+      tech: ["Spring Boot", "MySQL", "React.js"],
+      githubUrl: "https://github.com/monjane10/bePrepared",
       details: {
         overview:
           "Highlight Keeper is a Chrome extension to help you effortlessly highlight, save, and organize important text from any webpage. Whether you're researching, reading articles, or managing content, your key information is always at your fingertips.",
         features: [
-          "Instant text highlighting and saving",
-          "Titles and tags for better note organization",
-          "Real-time search and advanced tag filtering",
-          "Export notes as .txt files, including metadata",
-          "Local storage for offline support and privacy",
-          "Future enhancements like cloud sync and imports",
+          "Contém todos os distritos, cidades, e provincias de Moçambique",
+          "Faz Cadastro de Utilizadores com rolles  ADIMIN e USER",
+          "O Adimin pode emitir ou adicionar um alerta",
+          "O utilizador é notificado em caso de alerta",
+        ],
+      },
+    },
+
+    // 6) Highlight Keeper (Chrome Extension) + GitHub link
+    {
+      title: "EnrollSytem",
+      description: "Uma Solução inovadora para fazer insvrição aos exames de admissão em institutos públicos em Moçambique",
+      images: [
+        "/assets/images/projects/highlight.JPG",
+        "/assets/images/projects/highlight2.JPG",
+      ],
+      tech: ["Spring Boot", "MySQL", "React.js"],
+      githubUrl: "https://github.com/monjane10/bePrepared",
+      details: {
+        overview:
+          "Highlight Keeper is a Chrome extension to help you effortlessly highlight, save, and organize important text from any webpage. Whether you're researching, reading articles, or managing content, your key information is always at your fingertips.",
+        features: [
+          "Contém todos os distritos, cidades, e provincias de Moçambique",
+          "Faz Cadastro de Utilizadores com rolles  ADIMIN e USER",
+          "O Adimin pode emitir ou adicionar um alerta",
+          "O utilizador é notificado em caso de alerta",
         ],
       },
     },
@@ -201,7 +217,7 @@ const Projects = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
-              Featured Projects
+              Projectos Recentes
             </span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 mx-auto rounded-full"></div>
@@ -228,7 +244,7 @@ const Projects = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-600/80 to-purple-600/80 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center">
                   <span className="text-white text-lg font-medium">
-                    View Details
+                    Ver Detalhes
                   </span>
                 </div>
               </div>
@@ -337,7 +353,7 @@ const Projects = () => {
                         className="flex items-center gap-2 px-6 py-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white rounded-full font-medium group"
                       >
                         <ExternalLink size={18} />
-                        Live Demo
+                        Ver
                         <span className="opacity-0 group-hover:opacity-100 transition-opacity">
                           ↗
                         </span>

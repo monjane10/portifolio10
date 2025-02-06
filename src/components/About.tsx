@@ -99,7 +99,7 @@ const About = () => {
               >
                 <div className="absolute inset-1 rounded-full bg-gray-900 flex items-center justify-center">
                   <span className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
-                    OI
+                    LM
                   </span>
                 </div>
               </motion.div>

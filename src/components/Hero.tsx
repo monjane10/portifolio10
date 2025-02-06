@@ -100,13 +100,13 @@ const Hero = () => {
                 <ExternalLink className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
               </motion.a>
               <motion.a 
-                href="#contact"
+                href="mailto:lourencomonjane2@gmail.com"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="px-8 py-3 bg-gray-800 text-white rounded-full font-medium flex items-center gap-2 group hover:bg-gray-700"
               >
                 <Mail className="w-5 h-5" />
-                Contacto
+                Email
                 <ExternalLink className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
               </motion.a>
             </div>

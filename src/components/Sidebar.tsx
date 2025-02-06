@@ -96,7 +96,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
               whileHover={{ scale: 1.1 }}
               className="w-12 h-12 mx-auto bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center cursor-pointer shadow-lg"
             >
-              <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-blue-100">OI</span>
+              <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-blue-100">LM</span>
             </motion.div>
           </div>
 

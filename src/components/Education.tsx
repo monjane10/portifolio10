@@ -76,7 +76,7 @@ const Education = () => {
       ]
     },
     {
-      id: 4,
+      id: 5,
       title: "Node.js",
       institution: "Rockeseat",
       year: "2024",
@@ -90,7 +90,7 @@ const Education = () => {
       ]
     },
     {
-      id: 5,
+      id: 6,
       title: "Spring Boot",
       institution: "Rockeseat",
       year: "2023",
