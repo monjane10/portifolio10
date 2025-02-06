@@ -75,7 +75,7 @@ const Contact: React.FC = () => {
           name: formData.name,
           email: formData.email,
           message: formData.message,
-          from_name: "Your Website Contact Form"
+          from_name: "Através do teu Whatsapp"
         })
       });
 
@@ -86,10 +86,10 @@ const Contact: React.FC = () => {
         setFormData({ name: "", email: "", subject: "", message: "" });
         setTimeout(() => setIsSubmitted(false), 3000);
       } else {
-        throw new Error(result.message || 'Something went wrong!');
+        throw new Error(result.message || 'Algo correu mal!');
       }
     } catch (err: any) {
-      setError(err.message || "Failed to send message. Please try again.");
+      setError(err.message || "Erro ao enviar Mensagem. Por favor tente novamente.");
     } finally {
       setIsLoading(false);
     }
@@ -108,12 +108,12 @@ const Contact: React.FC = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <span className="text-blue-400 font-medium tracking-wider text-sm">GET IN TOUCH</span>
+              <span className="text-blue-400 font-medium tracking-wider text-sm">Dê um toque</span>
               <h1 className="text-4xl lg:text-5xl font-bold text-white tracking-tight mt-2">
-                Let's Work Together
+                Podemos Trabalhar Juntos
               </h1>
               <p className="text-gray-300 text-lg leading-relaxed mt-4">
-                Have a project in mind? Fill out the form and I'll get back to you within 24 hours.
+                Tens um projecto em mente? Preencha o formulãrio e eu vou responder dentro de 24 horas.
               </p>
             </motion.div>
           </div>
@@ -130,7 +130,7 @@ const Contact: React.FC = () => {
               </div>
               <div>
                 <p className="font-medium text-white">Email</p>
-                <p className="text-sm">osama.islam29@gmail.com</p>
+                <p className="text-sm">lourencomonjane2@gmail.com</p>
               </div>
             </div>
             {/* You can add more contact info here if needed */}
@@ -166,7 +166,7 @@ const Contact: React.FC = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="relative">
                   <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">
-                    Full Name
+                    Nome completo
                   </label>
                   <div className="relative">
                     <User className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
@@ -177,7 +177,7 @@ const Contact: React.FC = () => {
                       value={formData.name}
                       onChange={handleChange}
                       className="w-full pl-12 pr-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-200"
-                      placeholder="John Doe"
+                      placeholder="Hayati Monjane"
                       required
                     />
                   </div>
@@ -185,7 +185,7 @@ const Contact: React.FC = () => {
 
                 <div className="relative">
                   <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">
-                    Email Address
+                    Email
                   </label>
                   <div className="relative">
                     <AtSign className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
@@ -196,7 +196,7 @@ const Contact: React.FC = () => {
                       value={formData.email}
                       onChange={handleChange}
                       className="w-full pl-12 pr-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-200"
-                      placeholder="john@example.com"
+                      placeholder="monjane@example.com"
                       required
                     />
                   </div>
@@ -205,7 +205,7 @@ const Contact: React.FC = () => {
 
               <div>
                 <label htmlFor="subject" className="block text-sm font-medium text-gray-300 mb-2">
-                  Subject
+                  Assunto
                 </label>
                 <input
                   type="text"
@@ -214,14 +214,14 @@ const Contact: React.FC = () => {
                   value={formData.subject}
                   onChange={handleChange}
                   className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-200"
-                  placeholder="What's this about?"
+                  placeholder="Qual é a tua ideia?"
                   required
                 />
               </div>
 
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2">
-                  Message
+                  Mensagem
                 </label>
                 <textarea
                   id="message"
@@ -230,7 +230,7 @@ const Contact: React.FC = () => {
                   value={formData.message}
                   onChange={handleChange}
                   className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-200 resize-none"
-                  placeholder="Tell me about your project..."
+                  placeholder="Conta-me mais sobre o projecto..."
                   required
                 />
               </div>
@@ -248,7 +248,7 @@ const Contact: React.FC = () => {
                 ) : (
                   <>
                     <Send className="w-5 h-5" />
-                    Send Message
+                     Enviar mensagem
                   </>
                 )}
               </button>
