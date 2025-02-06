@@ -25,11 +25,11 @@ const Skills = () => {
       color: 'from-blue-500 to-cyan-400',
       description: 'Building responsive and interactive user interfaces',
       skills: [
-        { name: 'HTML/CSS', level: 85, description: 'Semantic HTML and modern CSS including Flexbox, Grid, and animations' },
-        { name: 'JavaScript', level: 80, description: 'ES6+, DOM manipulation, async programming' },
-        { name: 'Vue.js', level: 70, description: 'Component architecture, state management, Vue Router' },
-        { name: 'React', level: 70, description: 'Hooks, Context API, Redux, Next.js' },
-        { name: 'Livewire', level: 85, description: 'Real-time UI updates, dynamic interfaces' },
+        { name: 'React.js', level: 85, description: 'Semantic HTML and modern CSS including Flexbox, Grid, and animations' },
+        { name: 'React Native', level: 80, description: 'ES6+, DOM manipulation, async programming' },
+        { name: 'Tailwind Css', level: 70, description: 'Component architecture, state management, Vue Router' },
+        { name: 'Material UI', level: 70, description: 'Hooks, Context API, Redux, Next.js' },
+        { name: 'HTML/CSS/Javascript', level: 85, description: 'Real-time UI updates, dynamic interfaces' },
       ],
     },
     {
@@ -38,8 +38,8 @@ const Skills = () => {
       color: 'from-purple-500 to-pink-500',
       description: 'Server-side development and database management',
       skills: [
-        { name: 'PHP', level: 90, description: 'OOP, design patterns, modern PHP 7/8 features' },
-        { name: 'Laravel', level: 96, description: 'Full-stack framework expertise, custom solutions' },
+        { name: 'Spring Boot', level: 90, description: 'OOP, design patterns, modern PHP 7/8 features' },
+        { name: 'Node.js', level: 75, description: 'Full-stack framework expertise, custom solutions' },
         { name: 'MySQL', level: 85, description: 'Database design, optimization, complex queries' },
         { name: 'RESTful APIs', level: 85, description: 'API design, authentication, documentation' },
       ],
@@ -52,8 +52,8 @@ const Skills = () => {
       skills: [
         { name: 'Git', level: 80, description: 'Version control system for tracking code changes and collaboration' },
         { name: 'PostMan', level: 75, description: 'API development and testing tool for building and testing APIs' },
-        { name: 'Pusher', level: 70, description: 'Real-time messaging and notification service' },
-        { name: 'Linux', level: 90, description: 'Operating system and command line interface skills' },
+        { name: 'MacOs', level: 70, description: 'Real-time messaging and notification service' },
+        { name: 'Windows', level: 90, description: 'Operating system and command line interface skills' },
       ],
     },
   ];
@@ -112,7 +112,7 @@ const Skills = () => {
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
-              Technical Skills
+              Habilidades Técnicas
             </span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 mx-auto rounded-full"></div>
