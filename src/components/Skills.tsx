@@ -45,7 +45,7 @@ const Skills = () => {
       ],
     },
     {
-      name: 'Tools & Others',
+      name: 'Ferramentas & Outros',
       icon: Wrench,
       color: 'from-green-500 to-emerald-500',
       description: 'Development tools and deployment technologies',
