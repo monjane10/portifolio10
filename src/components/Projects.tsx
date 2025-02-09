@@ -40,10 +40,11 @@ const Projects = () => {
       title: "DietAssistent",
       description: "Uma aplicação móvel capaz de gerar dieta com base nos dados do utilizador",
       images: [
-        "/assets/images/projects/socialmedia.JPG",
-        "/assets/images/projects/socialmedia1.JPG",
+        "/assets/images/projects/DietaAI.jpg",
+        "/assets/images/projects/DietaAI2.jpg",
 
-        "/assets/images/projects/socialmedia2.JPG",
+        "/assets/images/projects/DietaAI3.jpg",
+        "/assets/images/projects/DietaAI4.jpg",
         // You can add more images here if desired
       ],
       tech: ["Node.js", "Gemini-AI", "ReactNative"],
@@ -66,10 +67,10 @@ const Projects = () => {
       title: "NearBy",
       description: "Aplicão que ajuda os utilizadores a encontrar lugares e pessoas próximas a eles",
       images: [
-        "/assets/images/projects/ecommerce1.JPG",
+        "/assets/images/projects/nearby.jpg",
 
-        "/assets/images/projects/ecommerce.JPG",
-        "/assets/images/projects/ecommerce2.JPG",
+        "/assets/images/projects/nearby2.jpg",
+        "/assets/images/projects/nearby3.jpg",
 
         // Add more images if you have them
       ],
@@ -92,8 +93,7 @@ const Projects = () => {
       title: "BurguerShop",
       description: "Uma Hamburgueria Online",
       images: [
-        "/assets/images/projects/linkshort1.png",
-        "/assets/images/projects/linkshort2.png",
+        "/assets/images/projects/burguershop.jpg",
       ],
       tech: ["HTML", "Tailwind css", "Javascript"],
       demoUrl: "https://burguershop-puce.vercel.app",
@@ -114,8 +114,8 @@ const Projects = () => {
       title: "Loja Virtual 2024",
       description: "Aplicação web para gestão de produtos, stocks, vendas e funcionários",
       images: [
-        "/assets/images/projects/syllable1.png",
-        "/assets/images/projects/syllable2.png",
+        "/assets/images/projects/lojavirtual.jpg",
+        "/assets/images/projects/lojavirtual2.jpg",
       ],
       tech: ["Spring Boot", "MySQL", "React.js", "Material UI", "Bootstrap"],
       githubUrl: "https://github.com/monjane10/Loja-Virtual-2024",
@@ -136,14 +136,14 @@ const Projects = () => {
       title: "BePrepared",
       description: "Uma Solução inovadora que visa reduzir o impacto dos desastres naturais em Moçambique",
       images: [
-        "/assets/images/projects/highlight.JPG",
-        "/assets/images/projects/highlight2.JPG",
+        "/assets/images/projects/beprepared.jpg",
+        "/assets/images/projects/BePrepared2.jpg",
       ],
       tech: ["Spring Boot", "MySQL", "React.js"],
       githubUrl: "https://github.com/monjane10/bePrepared",
       details: {
         overview:
-          "Highlight Keeper is a Chrome extension to help you effortlessly highlight, save, and organize important text from any webpage. Whether you're researching, reading articles, or managing content, your key information is always at your fingertips.",
+          "Uma UI desenvolvida para minimizar o impacto dos desastres naturais em Moçambique.",
         features: [
           "Contém todos os distritos, cidades, e provincias de Moçambique",
           "Faz Cadastro de Utilizadores com rolles  ADIMIN e USER",
@@ -156,16 +156,15 @@ const Projects = () => {
     // 6) Highlight Keeper (Chrome Extension) + GitHub link
     {
       title: "EnrollSytem",
-      description: "Uma Solução inovadora para fazer insvrição aos exames de admissão em institutos públicos em Moçambique",
+      description: "Uma Solução inovadora para fazer inscrição aos exames de admissão em institutos públicos em Moçambique",
       images: [
-        "/assets/images/projects/highlight.JPG",
-        "/assets/images/projects/highlight2.JPG",
+        "/assets/images/projects/enrolly.jpg",
       ],
       tech: ["Spring Boot", "MySQL", "React.js"],
       githubUrl: "https://github.com/monjane10/bePrepared",
       details: {
         overview:
-          "Highlight Keeper is a Chrome extension to help you effortlessly highlight, save, and organize important text from any webpage. Whether you're researching, reading articles, or managing content, your key information is always at your fingertips.",
+          "Aplicação desenvolvida para facilitar o processo de inscrição aos exames de admissão ao institutos públicos em Moçambique",
         features: [
           "Contém todos os distritos, cidades, e provincias de Moçambique",
           "Faz Cadastro de Utilizadores com rolles  ADIMIN e USER",
