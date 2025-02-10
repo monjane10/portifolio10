@@ -91,20 +91,21 @@ const Projects = () => {
     // 3) Link Shortener (link10.de)
     {
       title: "BurguerShop",
-      description: "Uma Hamburgueria Online",
+      description: "Uma hamburgueria online onde os utilizadores podem fazer os seus pedidos de forma rápida e prática, com entrega através do WhatsApp",
       images: [
         "/assets/images/projects/burguershop.jpg",
+        "/assets/images/projects/burgue.jpg",
       ],
       tech: ["HTML", "Tailwind css", "Javascript"],
       demoUrl: "https://burguershop-puce.vercel.app",
       details: {
         overview:
-          "Uma Hamburgueria online, onde os utilizadores podem fazer os seus pedidos e adicionando a sua localizaão e os dados são enviados para o WhatsApp da Hamburgueria",
+          "BurguerShop é uma hamburgueria online onde os utilizadores podem fazer encomendas de hambúrgueres e outros itens diretamente no site. O pedido é enviado diretamente para o WhatsApp da hamburgueria, e a entrega é feita no endereço fornecido pelo cliente.",
         features: [
-          "As encomendas só podem ser feitas das 8hrs às 20hrs",
-          "Ao tentar encomendar algo enquanto a loja estiver fechada o pedido não é enviado",
-          "O utilizador tem que adicionar obrigatoriamente a sua localização/endereço",
-          "O utilizador pode remover ou editar itens antes de fazer o pedido",
+          "As encomendas só podem ser feitas entre 8h e 20h.",
+          "Caso o utilizador tente fazer uma encomenda fora do horário de funcionamento, o pedido não será enviado.",
+          "O utilizador deve obrigatoriamente adicionar a sua localização/endereço para completar o pedido.",
+          "O utilizador tem a opção de editar ou remover itens do carrinho antes de finalizar o pedido.",
         ],
       },
     },
@@ -112,7 +113,7 @@ const Projects = () => {
     // 4) Syllable Highlighter (silbenschrift.de)
     {
       title: "Loja Virtual 2024",
-      description: "Aplicação web para gestão de produtos, stocks, vendas e funcionários",
+      description: "Aplicação web para gestão eficiente de produtos, stocks, vendas e funcionários, com foco na experiência do usuário e facilidade de operação.",
       images: [
         "/assets/images/projects/lojavirtual.jpg",
         "/assets/images/projects/lojavirtual2.jpg",
@@ -121,12 +122,12 @@ const Projects = () => {
       githubUrl: "https://github.com/monjane10/Loja-Virtual-2024",
       details: {
         overview:
-          "With this free syllabary converter, you can convert any length of text into colored syllabary. Customize colors or choose from presets, then download as a Word document. Make learning to read fun and effective!",
+          "A 'Loja Virtual 2024' é uma aplicação web desenvolvida para gerir todos os aspectos de um negócio de comércio eletrônico, desde o controle de stock até as vendas e a gestão de funcionários. Com uma interface amigável e recursos intuitivos, a aplicação visa tornar o gerenciamento de lojas mais eficiente e organizado.",
         features: [
-          "Faz Gestão de funcionários",
-          "Faz Gestão de Lotes e Productos",
-          "Realiza vendas",
-          "Emite recibos",
+          "Gestão de funcionários, permitindo a atribuição de funções e acompanhamento das atividades.",
+          "Gestão de produtos e lotes, facilitando o controle de estoque e a organização de itens.",
+          "Funcionalidade para realizar vendas, com acompanhamento em tempo real do status de cada transação.",
+          "Emissão de recibos de vendas, proporcionando transparência e rastreabilidade das transações.",
         ],
       },
     },
@@ -134,7 +135,7 @@ const Projects = () => {
     // 5) Highlight Keeper (Chrome Extension) + GitHub link
     {
       title: "BePrepared",
-      description: "Uma Solução inovadora que visa reduzir o impacto dos desastres naturais em Moçambique",
+      description: "Uma solução inovadora que visa reduzir o impacto dos desastres naturais em Moçambique, promovendo a gestão eficaz de alertas e informações.",
       images: [
         "/assets/images/projects/beprepared.jpg",
         "/assets/images/projects/BePrepared2.jpg",
@@ -143,12 +144,12 @@ const Projects = () => {
       githubUrl: "https://github.com/monjane10/bePrepared",
       details: {
         overview:
-          "Uma UI desenvolvida para minimizar o impacto dos desastres naturais em Moçambique.",
+          "BePrepared é uma aplicação desenvolvida com o objetivo de minimizar o impacto dos desastres naturais em Moçambique. O sistema permite o registo de utilizadores, emissão de alertas e a gestão eficaz de informações para garantir que a população esteja melhor preparada e informada durante crises.",
         features: [
-          "Contém todos os distritos, cidades, e provincias de Moçambique",
-          "Faz Cadastro de Utilizadores com rolles  ADIMIN e USER",
-          "O Adimin pode emitir ou adicionar um alerta",
-          "O utilizador é notificado em caso de alerta",
+          "Contém informações sobre todos os distritos, cidades e províncias de Moçambique.",
+          "Cadastro de utilizadores com papéis ADMIN e USER, facilitando a gestão de alertas e informações.",
+          "Cadastro de utilizadores com papéis ADMIN e USER, facilitando a gestão de alertas e informações.",
+          "Os utilizadores recebem notificações em caso de alerta, garantindo que estejam sempre informados.",
         ],
       },
     },
