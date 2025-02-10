@@ -95,6 +95,7 @@ const Projects = () => {
       images: [
         "/assets/images/projects/burguershop.jpg",
         "/assets/images/projects/burgue.jpg",
+        "/assets/images/projects/burgue1.jpg",
       ],
       tech: ["HTML", "Tailwind css", "Javascript"],
       demoUrl: "https://burguershop-puce.vercel.app",
