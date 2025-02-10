@@ -38,7 +38,7 @@ const Projects = () => {
     // 1) Social Media Application (No demo URL, so no button will show)
     {
       title: "DietAssistent",
-      description: "Uma aplicação móvel capaz de gerar dieta com base nos dados do utilizador",
+      description: "Uma aplicação móvel inteligente capaz de gerar dietas personalizadas com base nos dados do utilizador, utilizando inteligência artificial para otimizar resultados.",
       images: [
         "/assets/images/projects/DietaAI.jpg",
         "/assets/images/projects/DietaAI2.jpg",
@@ -51,13 +51,13 @@ const Projects = () => {
       githubUrl: "https://github.com/monjane10/DietAssistent",
       details: {
         overview:
-          "Uma aplicação móvel capaz de gerar dieta com base nos dados do utilizador com Integração com Inteligência artificial.",
+          "DietAssistent é uma aplicação móvel desenvolvida para ajudar os utilizadores a alcançar seus objetivos de saúde e bem-estar por meio de dietas personalizadas. Com integração com inteligência artificial, a aplicação gera planos de dieta baseados nos dados fornecidos pelo utilizador, garantindo um acompanhamento saudável e adaptado às suas necessidades.",
         features: [
-          "O utilizador Clica no Botão Gerar Dieta",
-          "Coloca os dados, como (Nome, Altura, peso, Idade, Objectivo e Nivel",
-          "Clica no botão Finalizar Dieta",
-          "O App gera a dieta e devolve ao utilizador",
-          "a aplicação conta com uma interface amigável e um design moderno e intuitivo",
+          "O utilizador clica no botão 'Gerar Dieta' para iniciar o processo.",
+          "Inserção de dados pessoais, como nome, altura, peso, idade, objetivo e nível de atividade física.",
+          "Após preencher os dados, o utilizador clica em 'Finalizar Dieta' para obter o plano personalizado.",
+          "A aplicação gera uma dieta completa com base nas informações fornecidas e apresenta ao utilizador",
+          "Conta com uma interface amigável e um design moderno e intuitivo, facilitando a navegação e o uso.",
         ],
       },
     },
@@ -210,6 +210,25 @@ const Projects = () => {
         features: [
           "Design Responsivo e Animado: A landing page conta com animações e transições suaves que tornam a navegação mais agradável e interativa.",
           "Interatividade com JavaScript: A animação e interatividade são aprimoradas pelo uso de JavaScript, proporcionando uma experiência de navegação mais rica e dinâmica.",
+        ],
+      },
+    },
+
+    {
+      title: "Agência de Viagens",
+      description: "Landing page interativa e informativa para uma agência de viagens, permitindo que os usuários consultem pacotes e entrem em contato diretamente para planejar suas viagens. ",
+      images: [
+        "/assets/images/projects/fp.jpg",
+      ],
+      tech: ["HTML", "CSS", "Javascript"],
+      demoUrl: "https://agencia-de-viagens-orpin.vercel.app/",
+      details: {
+        overview:
+          "Agência de Viagens é uma landing page criada para promover pacotes de viagens e facilitar o contato com clientes. O site oferece uma navegação clara e simples, com informações sobre destinos, hotéis e passagens. A página permite que os visitantes entrem em contato diretamente com a agência via WhatsApp, e-mail ou redes sociais, oferecendo uma experiência interativa e prática para planejar a viagem.",
+        features: [
+          "Design Responsivo e Atrativo: O layout é adaptável a diferentes dispositivos e proporciona uma navegação fluída e intuitiva.",
+          "Interatividade Simples e Funcional: O site facilita o contato com a agência e a visualização das opções de viagem.",
+          "Integração com Redes Sociais: Os usuários podem se conectar diretamente à agência através de WhatsApp, Instagram ou e-mail para mais informações.",
         ],
       },
     },
