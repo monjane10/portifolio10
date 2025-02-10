@@ -218,7 +218,10 @@ const Projects = () => {
       title: "Agência de Viagens",
       description: "Landing page interativa e informativa para uma agência de viagens, permitindo que os usuários consultem pacotes e entrem em contato diretamente para planejar suas viagens. ",
       images: [
-        "/assets/images/projects/fp.jpg",
+        "/assets/images/projects/travells4.jpg",
+        "/assets/images/projects/travells.jpg",
+        "/assets/images/projects/travells2.jpg",
+        "/assets/images/projects/travells3.jpg",
       ],
       tech: ["HTML", "CSS", "Javascript"],
       demoUrl: "https://agencia-de-viagens-orpin.vercel.app/",
