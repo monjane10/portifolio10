@@ -173,6 +173,44 @@ const Projects = () => {
         ],
       },
     },
+
+    {
+      title: "António Monjane - Portfólio Pessoal",
+      description: "O site pessoal de António Monjane, um jornalista multifacetado e especialista em comunicação empresarial com mais de 10 anos de experiência no campo da comunicação, tanto na mídia tradicional quanto no digital.",
+      images: [
+        "/assets/images/projects/toni.jpg",
+        "/assets/images/projects/tony.jpg",
+      ],
+      tech: ["HTML", "CSS", "Javascript"],
+      demoUrl: "https://antoniomonjane.netlify.app/",
+      details: {
+        overview:
+          "Este site apresenta o portfólio de António Monjane, incluindo sua experiência como jornalista e sua transição bem-sucedida para o setor de comunicação empresarial. Ele compartilha detalhes sobre sua carreira, formação e experiência no jornalismo e comunicação corporativa.",
+        features: [
+          "Apresentação do currículo profissional e trajetória de carreira.",
+          "Informações sobre a experiência em diversas áreas da comunicação: imprensa, rádio, televisão e plataformas digitais.",
+          "Contacto direto através de WhatsApp e redes sociais.",
+          "Links para o CV e outras informações relevantes.",
+        ],
+      },
+    },
+    {
+      title: "FP Selection",
+      description: "O FP Selection é uma landing page interativa e animada criada utilizando HTML, CSS e JavaScript. ",
+      images: [
+        "/assets/images/projects/fp.jpg",
+      ],
+      tech: ["HTML", "CSS", "Javascript"],
+      demoUrl: "https://fp-selection-six.vercel.app/",
+      details: {
+        overview:
+          "O FP Selection é uma landing page interativa e animada, construída com HTML, CSS e JavaScript. O objetivo do site é apresentar uma interface atrativa e funcional, proporcionando uma experiência de navegação fluída e moderna. Com animações suaves e um design clean, a página oferece uma experiência de usuário envolvente e intuitiva, ideal para destacar informações essenciais de maneira clara.",
+        features: [
+          "Design Responsivo e Animado: A landing page conta com animações e transições suaves que tornam a navegação mais agradável e interativa.",
+          "Interatividade com JavaScript: A animação e interatividade são aprimoradas pelo uso de JavaScript, proporcionando uma experiência de navegação mais rica e dinâmica.",
+        ],
+      },
+    },
   ];
 
   return (
@@ -324,7 +362,7 @@ const Projects = () => {
                   </p>
 
                   <h4 className="text-xl font-semibold text-white mb-3">
-                    Key Features
+                     principais características
                   </h4>
                   <ul className="list-none space-y-2 mb-6">
                     {selectedProject.details.features.map((feature, idx) => (
