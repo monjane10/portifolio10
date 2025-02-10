@@ -29,9 +29,8 @@ const Education = () => {
       icon: GraduationCap,
       color: "from-purple-500 to-pink-500",
       achievements: [
-        "Melhor Estudante do Ano",
-        "Melhor Nota em Analise e Desenho de Sistemas", 
-        "Melhor Trabalho de Programação web"
+        "Melhor Estudante na Cadeira de Analise Matemática I",
+        "Melhor Nota em Analise e Desenho de Sistemas",
       ]
     },
     {
