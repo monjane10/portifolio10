@@ -65,7 +65,7 @@ const Projects = () => {
     // 2) E-Commerce Platform (Updated live URL to mmauto.ae)
     {
       title: "NearBy",
-      description: "Aplicão que ajuda os utilizadores a encontrar lugares e pessoas próximas a eles",
+      description: "Aplicação que ajuda os utilizadores a encontrar lugares e pessoas próximas, facilitando a conexão e a localização de serviços e eventos ao redor.",
       images: [
         "/assets/images/projects/nearby.jpg",
 
@@ -78,12 +78,12 @@ const Projects = () => {
       githubUrl: "https://github.com/monjane10/NearBy",
       details: {
         overview:
-          "Built a comprehensive e-commerce platform with advanced features for both customers and administrators. The system handles everything from product management to order processing.",
+          "NearBy é uma aplicação desenvolvida para ajudar os utilizadores a localizar lugares e pessoas ao seu redor, oferecendo funcionalidades como pesquisa por proximidade e visualização de informações detalhadas sobre os locais, além de permitir a leitura de QR codes para facilitar o acesso a locais e eventos específicos.",
         features: [
-          "Tela inicial com logo, descrição e botão Começar",
-          "Tela com menu, mapa e filtragem de lugares",
-          "Tela para visualizar lugares",
-          "Leitura de qrCode",
+          "Tela inicial com o logo, descrição e botão para começar a usar a aplicação.",
+          "Tela com um menu, mapa interativo e filtros para procurar lugares próximos.",
+          "Tela para visualizar detalhes de lugares selecionados, incluindo informações sobre serviços, horários e localização.",
+          "Leitura de QR code, permitindo o acesso rápido a eventos ou locais ao escanear códigos diretamente na aplicação.",
         ],
       },
     },
