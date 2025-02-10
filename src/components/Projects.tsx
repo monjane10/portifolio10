@@ -156,20 +156,20 @@ const Projects = () => {
     // 6) Highlight Keeper (Chrome Extension) + GitHub link
     {
       title: "EnrollSytem",
-      description: "Uma Solução inovadora para fazer inscrição aos exames de admissão em institutos públicos em Moçambique",
+      description: "Uma solução inovadora para facilitar o processo de inscrição aos exames de admissão em institutos públicos em Moçambique.",
       images: [
         "/assets/images/projects/enrolly.jpg",
       ],
       tech: ["Spring Boot", "MySQL", "React.js"],
-      githubUrl: "https://github.com/monjane10/bePrepared",
+      githubUrl: "https://github.com/Faustinojoao/bill-system-backend",
       details: {
         overview:
-          "Aplicação desenvolvida para facilitar o processo de inscrição aos exames de admissão ao institutos públicos em Moçambique",
+          "EnrollSytem é uma aplicação desenvolvida para facilitar a inscrição de alunos nos exames de admissão em institutos públicos de Moçambique. O sistema permite que os alunos se registem, escolham os cursos e as instituições desejadas, e acompanhem o estado das suas inscrições e os resultados dos exames.",
         features: [
-          "Contém todos os distritos, cidades, e provincias de Moçambique",
-          "Faz Cadastro de Utilizadores com rolles  ADIMIN e USER",
-          "O Adimin pode emitir ou adicionar um alerta",
-          "O utilizador é notificado em caso de alerta",
+          "Registo de todos os institutos de Moçambique.",
+          "Os alunos podem se cadastrar, selecionar o curso e a instituição desejada para se inscrever.",
+          "Os alunos podem acompanhar o estado de sua inscrição e verificar os resultados dos exames.",
+          "Sistema de gestão para administradores, permitindo a emissão de alertas.",
         ],
       },
     },
