@@ -13,7 +13,6 @@ A modern, responsive personal portfolio website built with React, TypeScript, an
   - Work Experience
   - Education
   - Projects
-  - Reviews/Testimonials
   - Contact Form
 - Creative loading animations
 - Sidebar navigation
@@ -38,8 +37,8 @@ A modern, responsive personal portfolio website built with React, TypeScript, an
 
 1. Clone the repository
 ```bash
-git clone https://github.com/Osamaislam1/portfolio.git
-cd portfolio
+git clone https://github.com/monjane10/portifolio10.git
+cd portfolio10
 ```
 
 2. Install dependencies
@@ -78,7 +77,6 @@ portfolio/
 │   │   ├── Experience.tsx
 │   │   ├── Hero.tsx
 │   │   ├── Projects.tsx
-│   │   ├── Reviews.tsx
 │   │   ├── Sidebar.tsx
 │   │   └── Skills.tsx
 │   ├── App.tsx
@@ -100,15 +98,15 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/Osamaislam1/portfolio/issues).
+Contributions, issues, and feature requests are welcome! .
 
 ## 👨‍💻 Author
 
-Your Name
+Lourenço Monjane
 
 - Website: [Portfolio](https://lourencomonjane.vercel.app)
 - GitHub: [@monjane10](https://github.com/monjane10)
-- LinkedIn: [Lourenço Monjane](https://linkedin.com/in/osama-islam)
+- LinkedIn: [Lourenço Monjane](https://www.linkedin.com/in/louren%C3%A7o-monjane-159b27295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app )
 
 ## 🙏 Acknowledgments
 
