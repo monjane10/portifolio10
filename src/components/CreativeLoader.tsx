@@ -33,7 +33,7 @@ const CreativeLoader = () => {
           }}
           transition={{ duration: 3, repeat: Infinity }}
         >
-          Bem-vindo ao meu Portfólio
+          Bem-vindo ao meu Portifólio
         </motion.span>
       </motion.h1>
 
@@ -98,7 +98,7 @@ const CreativeLoader = () => {
         className="mt-12 text-center"
       >
         <motion.p className="text-lg text-gray-300">
-          {["A sua experiência ", "criativa está prestes a começar!"].map((word, i) => (
+          {["A tua experiência ", "criativa está prestes a começar!"].map((word, i) => (
             <motion.span
               key={i}
               initial={{ opacity: 0 }}
