@@ -14,7 +14,7 @@ const Experience = () => {
     {
       title: "Desenvolvedor Full Stack",
       company: "AjpContastech",
-      date: "Jan 2024 - Actual",
+      date: "Fev,2024 - Actual",
       points: [
         "Desenvolvimento e manutenção de aplicações web e móveis, desde a concepção até à implementação.",
         "Integração de APIs e bases de dados para garantir o bom funcionamento das aplicações.",
