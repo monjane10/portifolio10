@@ -41,7 +41,7 @@ const About = () => {
     { 
       icon: Clock, 
       label: 'Experiência',
-      description: '1+ Anos',
+      description: '+/-1 Anos',
       color: 'from-yellow-500 to-orange-500'
     }
   ];

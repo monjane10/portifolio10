@@ -34,7 +34,37 @@ const Projects = () => {
     setFullScreenImage(imageSrc);
   };
 
+  
+
   const projects = [
+
+    {
+      title: "easyCar",
+      description: "Uma aplicação móvel inteligente capaz de gerar dietas personalizadas com base nos dados do utilizador, utilizando inteligência artificial para otimizar resultados.",
+      images: [
+        "/assets/images/projects/easyCar.jpg",
+        "/assets/images/projects/easycar2.jpg",
+
+        "/assets/images/projects/easycar4.jpg",
+        "/assets/images/projects/easycar3.jpg",
+        "/assets/images/projects/easycar5.jpg",
+        // You can add more images here if desired
+      ],
+      tech: ["Node.js", "SQLite", "ReactNative"],
+      githubUrl: "https://github.com/monjane10/DietAssistent",
+      details: {
+        overview:
+          "DietAssistent é uma aplicação móvel desenvolvida para ajudar os utilizadores a alcançar seus objetivos de saúde e bem-estar por meio de dietas personalizadas. Com integração com inteligência artificial, a aplicação gera planos de dieta baseados nos dados fornecidos pelo utilizador, garantindo um acompanhamento saudável e adaptado às suas necessidades.",
+        features: [
+          "O utilizador clica no botão 'Gerar Dieta' para iniciar o processo.",
+          "Inserção de dados pessoais, como nome, altura, peso, idade, objetivo e nível de atividade física.",
+          "Após preencher os dados, o utilizador clica em 'Finalizar Dieta' para obter o plano personalizado.",
+          "A aplicação gera uma dieta completa com base nas informações fornecidas e apresenta ao utilizador",
+          "Conta com uma interface amigável e um design moderno e intuitivo, facilitando a navegação e o uso.",
+        ],
+      },
+    },
+
     // 1) Social Media Application (No demo URL, so no button will show)
     {
       title: "DietAssistent",
@@ -63,7 +93,7 @@ const Projects = () => {
     },
 
     // 2) E-Commerce Platform (Updated live URL to mmauto.ae)
-    {
+   /* {
       title: "NearBy",
       description: "Aplicação que ajuda os utilizadores a encontrar lugares e pessoas próximas, facilitando a conexão e a localização de serviços e eventos ao redor.",
       images: [
@@ -86,7 +116,7 @@ const Projects = () => {
           "Leitura de QR code, permitindo o acesso rápido a eventos ou locais ao escanear códigos diretamente na aplicação.",
         ],
       },
-    },
+    },*/
 
     // 3) Link Shortener (link10.de)
     {
@@ -112,7 +142,7 @@ const Projects = () => {
     },
 
     // 4) Syllable Highlighter (silbenschrift.de)
-    {
+    /*{
       title: "Loja Virtual 2024",
       description: "Aplicação web para gestão eficiente de produtos, stocks, vendas e funcionários, com foco na experiência do usuário e facilidade de operação.",
       images: [
@@ -131,7 +161,7 @@ const Projects = () => {
           "Emissão de recibos de vendas, proporcionando transparência e rastreabilidade das transações.",
         ],
       },
-    },
+    },*/
 
     // 5) Highlight Keeper (Chrome Extension) + GitHub link
     {
@@ -156,25 +186,6 @@ const Projects = () => {
     },
 
     // 6) Highlight Keeper (Chrome Extension) + GitHub link
-    {
-      title: "EnrollSytem",
-      description: "Uma solução inovadora para facilitar o processo de inscrição aos exames de admissão em institutos públicos em Moçambique.",
-      images: [
-        "/assets/images/projects/enrolly.jpg",
-      ],
-      tech: ["Spring Boot", "MySQL", "React.js"],
-      githubUrl: "https://github.com/Faustinojoao/bill-system-backend",
-      details: {
-        overview:
-          "EnrollSytem é uma aplicação desenvolvida para facilitar a inscrição de alunos nos exames de admissão em institutos públicos de Moçambique. O sistema permite que os alunos se registem, escolham os cursos e as instituições desejadas, e acompanhem o estado das suas inscrições e os resultados dos exames.",
-        features: [
-          "Registo de todos os institutos de Moçambique.",
-          "Os alunos podem se cadastrar, selecionar o curso e a instituição desejada para se inscrever.",
-          "Os alunos podem acompanhar o estado de sua inscrição e verificar os resultados dos exames.",
-          "Sistema de gestão para administradores, permitindo a emissão de alertas.",
-        ],
-      },
-    },
 
     {
       title: "António Monjane - Portfólio Pessoal",
@@ -193,23 +204,6 @@ const Projects = () => {
           "Informações sobre a experiência em diversas áreas da comunicação: imprensa, rádio, televisão e plataformas digitais.",
           "Contacto direto através de WhatsApp e redes sociais.",
           "Links para o CV e outras informações relevantes.",
-        ],
-      },
-    },
-    {
-      title: "FP Selection",
-      description: "O FP Selection é uma landing page interativa e animada criada utilizando HTML, CSS e JavaScript. ",
-      images: [
-        "/assets/images/projects/fp.jpg",
-      ],
-      tech: ["HTML", "CSS", "Javascript"],
-      demoUrl: "https://fp-selection-six.vercel.app/",
-      details: {
-        overview:
-          "O FP Selection é uma landing page interativa e animada, construída com HTML, CSS e JavaScript. O objetivo do site é apresentar uma interface atrativa e funcional, proporcionando uma experiência de navegação fluída e moderna. Com animações suaves e um design clean, a página oferece uma experiência de usuário envolvente e intuitiva, ideal para destacar informações essenciais de maneira clara.",
-        features: [
-          "Design Responsivo e Animado: A landing page conta com animações e transições suaves que tornam a navegação mais agradável e interativa.",
-          "Interatividade com JavaScript: A animação e interatividade são aprimoradas pelo uso de JavaScript, proporcionando uma experiência de navegação mais rica e dinâmica.",
         ],
       },
     },

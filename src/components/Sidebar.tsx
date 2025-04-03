@@ -18,7 +18,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
     { icon: Briefcase, label: 'Experiência', href: '#experience' },
     { icon: Code, label: 'Projectos', href: '#projects' },
     { icon: GraduationCap, label: 'Educação', href: '#education' },
-    { icon: Cpu, label: 'Habilidades', href: '#skills' },
+    //{ icon: Cpu, label: 'Habilidades', href: '#skills' },
     // { icon: User, label: 'Reviews', href: '#reviews' },
     { icon: Mail, label: 'Contacto', href: '#contact' },
   ];
