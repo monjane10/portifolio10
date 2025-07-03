@@ -121,7 +121,7 @@ const About = () => {
           >
             <p className="text-xl text-gray-300 leading-relaxed">
             Olá, eu sou Lourenço Monjane, estudante finalista do curso de Desenvolvimento de Software na Universidade São Tomás de Moçambique (USTM).
-            Se avançarmos para o presente, posso dizer com sinceridade que tem sido uma jornada incrível trabalhar como Desenvolvedor de Software e espero continuar a crescer, tanto a nível profissional como pessoal. O meu foco actual tem sido expandir o meu portfólio, criando mais projectos que posso adicionar aqui, além de ser um bom membro da equipa no meu trabalho actual. A minha jornada pelo mundo da tecnologia começou com a paixão pela inovação e pela resolução de problemas. Desde cedo, tive interesse em encontrar soluções criativas para desafios do dia a dia, o que me levou a escolher a carreira de Desenvolvimento de Software.
+            Se avançarmos para o presente, posso dizer com sinceridade que tem sido uma jornada incrível trabalhar como Desenvolvedor de Software e espero continuar a crescer, tanto a nível profissional como pessoal. A minha jornada pelo mundo da tecnologia começou com a paixão pela inovação e pela resolução de problemas. Desde cedo, tive interesse em encontrar soluções criativas para desafios do dia a dia, o que me levou a escolher a carreira de Desenvolvimento de Software.
             </p>
             
             <div className="grid grid-cols-2 gap-6">
