@@ -106,7 +106,7 @@ const Projects = () => {
         // Add more images if you have them
       ],
       tech: ["Flutter", "Dart", "FirebaseAuthetication", "Firebase Firestore"],
-      githubUrl: "https://github.com/monjane10/NearBy",
+      //githubUrl: "https://github.com/monjane10/NearBy",
       details: {
         overview:
           "O SIDPA é uma aplicação móvel desenvolvida com recurso a Dart e Flutter, que visa ajudar as pessoas a localizar documentos e objectos perdidos, pessoas desaparecidas, Efectuar denúncias e divulgar burladores. Através de uma interface intuitiva e fácil de usar, os utilizadores podem registar ocorrências, pesquisar por itens perdidos e receber notificações sobre novos registos na plataforma.",
@@ -115,7 +115,7 @@ const Projects = () => {
           "Tela de registo de ocorrências, onde os utilizadores podem descrever o item perdido ou a ocorrência.",
           "Tela principal, onde os utilizadores podem procurar por itens perdidos ou pessoas desaparecidas e visualizar publicações recentes.",
           "O utilizador pode comentar, receber notificaões de correspondência, editar o perfil e actualizar e apagar as suas publicações",
-          
+
 
               
               
