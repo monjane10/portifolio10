@@ -98,10 +98,16 @@ const Projects = () => {
       title: "NearBy",
       description: "Aplicação móvel desenvolvida com recurso a Dart e Flutter, que visa ajudar as pessoas a localizar documentos e objectos perdidos, pessoas desaparecidas, Efectuar denúncias e divulgar burladores.",
       images: [
-        "/assets/images/projects/nearby.jpg",
+        "/assets/images/projects/sidpa1.jpg",
 
-        "/assets/images/projects/nearby2.jpg",
-        "/assets/images/projects/nearby3.jpg",
+        "/assets/images/projects/sidpa2.jpg",
+        "/assets/images/projects/sidpa3.jpg",
+        "/assets/images/projects/sidpa4.jpg",
+        "/assets/images/projects/sidpa5.jpg",
+        "/assets/images/projects/sidpa6.jpg",
+        "/assets/images/projects/sidpa7.jpg",
+        "/assets/images/projects/sidpa8.jpg",
+        "/assets/images/projects/sidpa9.jpg",
 
         // Add more images if you have them
       ],
