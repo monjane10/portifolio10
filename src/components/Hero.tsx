@@ -6,7 +6,7 @@ const Hero = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   const skills = [
-    "Java", "JavaScript","PHP", "Spring Boot", "Node.js", "Reactjs", "React Native"
+    "______________________________________________________________________________________________________________"
   ];
 
   return (

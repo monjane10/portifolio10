@@ -40,7 +40,7 @@ const Projects = () => {
 
     {
       title: "easyCar",
-      description: "Uma aplicação móvel inteligente capaz de gerar dietas personalizadas com base nos dados do utilizador, utilizando inteligência artificial para otimizar resultados.",
+      description: "O EasyCar é uma aplicação mobile desenvolvida em React Native, criada para facilitar o transporte urbano, conectando passageiros e motoristas de forma eficiente. Através de uma interface intuitiva e fluída, os utilizadores podem solicitar corridas, acompanhar o status da viagem e interagir com os motoristas em tempo real.",
       images: [
         "/assets/images/projects/easyCar.jpg",
         "/assets/images/projects/easycar2.jpg",
@@ -51,7 +51,7 @@ const Projects = () => {
         // You can add more images here if desired
       ],
       tech: ["Node.js", "SQLite", "ReactNative"],
-      githubUrl: "https://github.com/monjane10/DietAssistent",
+      githubUrl: "https://github.com/monjane10/easyCar",
       details: {
         overview:
           "DietAssistent é uma aplicação móvel desenvolvida para ajudar os utilizadores a alcançar seus objetivos de saúde e bem-estar por meio de dietas personalizadas. Com integração com inteligência artificial, a aplicação gera planos de dieta baseados nos dados fornecidos pelo utilizador, garantindo um acompanhamento saudável e adaptado às suas necessidades.",

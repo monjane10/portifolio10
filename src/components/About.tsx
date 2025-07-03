@@ -9,7 +9,8 @@ import {
   Heart,
   Coffee,
   Clock,
-  Award
+  Award,
+  Smartphone,
 } from 'lucide-react';
 
 const About = () => {
@@ -23,19 +24,25 @@ const About = () => {
     { 
       icon: Code, 
       label: 'Backend',
-      description: 'Java | Spring boot | Node.js | C# | Microservices | Express.js | MVC Pattern  | REST APIs | GraphQL | Superbase',
+      description: 'Java | Spring boot | Node.js | C# ',
       color: 'from-blue-500 to-cyan-500'
     },
     { 
       icon: Database, 
       label: 'Base de dados',
-      description: 'MySQL | MongoDB | SQL server | PostgreSQL | Redis',
+      description: 'MySQL | MongoDB | SQL server',
       color: 'from-purple-500 to-pink-500'
     },
     { 
       icon: Globe, 
       label: 'Frontend',
-      description: 'React.js | Tailwind css | React Native | Material UI | Redux | React Query | Axios | Farmer Motion',
+      description: 'React.js | Tailwind css',
+      color: 'from-green-500 to-emerald-500'
+    },
+    { 
+      icon: Smartphone, 
+      label: 'Mobile',
+      description: 'React Native | Flutter',
       color: 'from-green-500 to-emerald-500'
     },
     { 
