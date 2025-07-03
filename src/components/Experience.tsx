@@ -16,10 +16,11 @@ const Experience = () => {
       company: "AjpContastech",
       date: "Fev,2024 - Jan, 2025",
       points: [
-        "Desenvolvi sistemas web usando React, HTML, CSS e JavaScript no front-end, Spring boot e Node.js no Backend.",
-        "Participei na criação e consumo de APIs.",
-        "Integrei bases de dados relacionais como MySQL e SQL Server e não relacionais como o MongoDB.",
-        "Participei de todas as etapas do desenvolvimento, deste a análise de requisitos até a implementação das aplicações.",
+       // "Desenvolvi sistemas web usando React, HTML, CSS e JavaScript no front-end, Spring boot e Node.js no Backend.",
+        //"Participei na criação e consumo de APIs.",
+       // "Integrei bases de dados relacionais como MySQL e SQL Server e não relacionais como o MongoDB.",
+       // "Participei de todas as etapas do desenvolvimento, deste a análise de requisitos até a implementação das aplicações.",
+      ""
       ]
     },
 
@@ -28,9 +29,10 @@ const Experience = () => {
       company: "Freelancer",
       date: "2023 - Actual",
       points: [
-        "Crio Websites e Landing Pages responsivas, dinamicas  e interativas usando React, HTML, CSS e JavaScript",
-        "Integro sites com API externas, como WhatSapp, google Maps e Firebase.",
-        "Implemento fluxos de logion com JWT, autenticação OAuth e validação de dados no lado do cliente",
+        //"Crio Websites e Landing Pages responsivas, dinamicas  e interativas usando React, HTML, CSS e JavaScript",
+        //"Integro sites com API externas, como WhatSapp, google Maps e Firebase.",
+        //"Implemento fluxos de logion com JWT, autenticação OAuth e validação de dados no lado do cliente",
+      ""
       ]
     }
   ];
