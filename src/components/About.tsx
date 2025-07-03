@@ -43,7 +43,7 @@ const About = () => {
       icon: Smartphone, 
       label: 'Mobile',
       description: 'React Native | Flutter',
-      color: 'from-green-500 to-emerald-500'
+      color: 'from-blue-500 to-cyan-500'
     },
     { 
       icon: Clock, 

@@ -51,16 +51,18 @@ const Projects = () => {
         // You can add more images here if desired
       ],
       tech: ["Node.js", "SQLite", "ReactNative"],
-      githubUrl: "https://github.com/monjane10/easyCar",
+      githubUrl: "https://github.com/monjane10/easyCar-mobile",
       details: {
         overview:
-          "DietAssistent é uma aplicação móvel desenvolvida para ajudar os utilizadores a alcançar seus objetivos de saúde e bem-estar por meio de dietas personalizadas. Com integração com inteligência artificial, a aplicação gera planos de dieta baseados nos dados fornecidos pelo utilizador, garantindo um acompanhamento saudável e adaptado às suas necessidades.",
+          "O EasyCar é uma aplicação mobile desenvolvida em React Native, criada para facilitar o transporte urbano, conectando passageiros e motoristas de forma eficiente. Através de uma interface intuitiva e fluída, os utilizadores podem solicitar corridas, acompanhar o status da viagem e interagir com os motoristas em tempo real.",
         features: [
-          "O utilizador clica no botão 'Gerar Dieta' para iniciar o processo.",
-          "Inserção de dados pessoais, como nome, altura, peso, idade, objetivo e nível de atividade física.",
-          "Após preencher os dados, o utilizador clica em 'Finalizar Dieta' para obter o plano personalizado.",
-          "A aplicação gera uma dieta completa com base nas informações fornecidas e apresenta ao utilizador",
-          "Conta com uma interface amigável e um design moderno e intuitivo, facilitando a navegação e o uso.",
+          "O utilizador clica no botão 'Solicitar Corrida' para iniciar o processo.",
+          "O utilizador insere o local de partida e destino, e o sistema calcula a rota mais eficiente.",
+          "O utilizador pode visualizar o perfil do motorista, incluindo nome, foto e avaliação.",
+          "O motorista recebe a solicitação e pode aceitar ou recusar a corrida.",
+          "Após a aceitação, o utilizador pode acompanhar a localização do motorista em tempo real.",
+          "O utilizador pode avaliar o motorista após a conclusão da corrida, contribuindo para a melhoria do serviço.",
+          "A aplicação conta com uma interface amigável e um design moderno e intuitivo, facilitando a navegação e o uso.",
         ],
       },
     },
@@ -88,6 +90,35 @@ const Projects = () => {
           "Após preencher os dados, o utilizador clica em 'Finalizar Dieta' para obter o plano personalizado.",
           "A aplicação gera uma dieta completa com base nas informações fornecidas e apresenta ao utilizador",
           "Conta com uma interface amigável e um design moderno e intuitivo, facilitando a navegação e o uso.",
+        ],
+      },
+    },
+
+    {
+      title: "NearBy",
+      description: "Aplicação móvel desenvolvida com recurso a Dart e Flutter, que visa ajudar as pessoas a localizar documentos e objectos perdidos, pessoas desaparecidas, Efectuar denúncias e divulgar burladores.",
+      images: [
+        "/assets/images/projects/nearby.jpg",
+
+        "/assets/images/projects/nearby2.jpg",
+        "/assets/images/projects/nearby3.jpg",
+
+        // Add more images if you have them
+      ],
+      tech: ["Flutter", "Dart", "FirebaseAuthetication", "Firebase Firestore"],
+      githubUrl: "https://github.com/monjane10/NearBy",
+      details: {
+        overview:
+          "O SIDPA é uma aplicação móvel desenvolvida com recurso a Dart e Flutter, que visa ajudar as pessoas a localizar documentos e objectos perdidos, pessoas desaparecidas, Efectuar denúncias e divulgar burladores. Através de uma interface intuitiva e fácil de usar, os utilizadores podem registar ocorrências, pesquisar por itens perdidos e receber notificações sobre novos registos na plataforma.",
+        features: [
+          "Tela de login com autenticação via Email e Senha.",
+          "Tela de registo de ocorrências, onde os utilizadores podem descrever o item perdido ou a ocorrência.",
+          "Tela principal, onde os utilizadores podem procurar por itens perdidos ou pessoas desaparecidas e visualizar publicações recentes.",
+          "O utilizador pode comentar, receber notificaões de correspondência, editar o perfil e actualizar e apagar as suas publicações",
+          
+
+              
+              
         ],
       },
     },
@@ -142,7 +173,7 @@ const Projects = () => {
     },
 
     // 4) Syllable Highlighter (silbenschrift.de)
-    /*{
+    {
       title: "Loja Virtual 2024",
       description: "Aplicação web para gestão eficiente de produtos, stocks, vendas e funcionários, com foco na experiência do usuário e facilidade de operação.",
       images: [
@@ -161,10 +192,10 @@ const Projects = () => {
           "Emissão de recibos de vendas, proporcionando transparência e rastreabilidade das transações.",
         ],
       },
-    },*/
+    },
 
     // 5) Highlight Keeper (Chrome Extension) + GitHub link
-    {
+   /* {
       title: "BePrepared",
       description: "Uma solução inovadora que visa reduzir o impacto dos desastres naturais em Moçambique, promovendo a gestão eficaz de alertas e informações.",
       images: [
@@ -183,7 +214,7 @@ const Projects = () => {
           "Os utilizadores recebem notificações em caso de alerta, garantindo que estejam sempre informados.",
         ],
       },
-    },
+    },*/
 
     // 6) Highlight Keeper (Chrome Extension) + GitHub link
 
